@@ -1,2 +1,3 @@
 # LLD
-1. Snakes and Ladders
+Implementation of below design qs -
+1. [Snakes and Ladders](SnakesAndLadders/)
