@@ -77,11 +77,11 @@ public class Board {
         for (var it : specialMoves) {
             if (it.getSource() == pos) {
                 if (it instanceof Ladder) {
-                    System.out.println("Yes! Found a ladder");
+                    System.out.println("Yes! Found a ladder at " + pos);
                     return ((Ladder) it).getTarget();
                 }
                 if (it instanceof Snake) {
-                    System.out.println("Oops! Bitten by a snake");
+                    System.out.println("Oops! Bitten by a snake at " + pos);
                     return ((Snake) it).getTarget();
                 }
             }
