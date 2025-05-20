@@ -1,4 +1,4 @@
-package thread.executorframework;
+package threadpool.latches;
 
 import java.util.concurrent.CountDownLatch;
 

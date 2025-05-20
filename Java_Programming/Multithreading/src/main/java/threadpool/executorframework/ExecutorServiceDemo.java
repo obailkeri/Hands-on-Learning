@@ -1,4 +1,4 @@
-package thread.executorframework;
+package threadpool.executorframework;
 
 import java.util.Arrays;
 import java.util.concurrent.Callable;
